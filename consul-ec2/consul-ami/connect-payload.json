@@ -1,0 +1,16 @@
+{
+  "Provider": "vault",
+  "Config": {
+    "Address": "https://vault.service.consul:8200",
+    "IntermediatePKIPath": "pki_int",
+    "RootPKIPath": "pki",
+    "CAPath": "/opt/consul/tls",
+    "CAFile": "/opt/consul/tls/ca.crt.pem",
+    "CertFile": "/opt/consul/tls/vault.crt.pem",
+    "KeyFile": "/opt/consul/tls/vault.key.pem",
+    "LeafCertTTL": "72h",
+    "RotationPeriod": "2160h",
+    "TLSSkipVerify": "true",
+    "Token": null
+  }
+}
